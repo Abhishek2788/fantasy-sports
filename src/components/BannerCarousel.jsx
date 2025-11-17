@@ -5,7 +5,7 @@ const slides = [
     id: 1,
     title: "MAKE YOUR TEAM & PLAY",
     subtitle: "WIN UPTO ₹1,00,000",
-    cta: "Make your team now",
+    cta: "Make team now",
     icon: "⚡",
   },
   {
@@ -94,14 +94,14 @@ export const BannerCarousel = () => {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-transparent via-white to-transparent opacity-50"></div>
 
                 <div className="relative h-full flex items-center justify-between p-6 text-white">
-                  <div className="flex-1">
+                  <div className="flex-1 pt-4">
                     <div className="text-xs font-bold uppercase tracking-widest opacity-90 mb-1">
                       {s.title}
                     </div>
                     <div className="text-xl sm:text-2xl font-black mb-3 leading-tight">
                       {s.subtitle}
                     </div>
-                    <button className="text-sm font-semibold bg-white hover:cursor-pointer text-primary px-4 py-2 rounded-lg hover:shadow-lg transition-smooth hover:scale-105 active:scale-95">
+                    <button className="text-sm font-semibold bg-white hover:cursor-pointer text-primary px-2 py-2 rounded-lg hover:shadow-lg transition-smooth hover:scale-105 active:scale-95">
                       {s.cta} →
                     </button>
                   </div>
