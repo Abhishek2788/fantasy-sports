@@ -46,6 +46,12 @@ Only allowed when all rules are met
 | **React Icons**           | Icons for UI                       |
 | **Environment Variables** | Secure API handling using `VITE_*` |
 
+## How To Start Project
+- Step 1: Clone this repository.
+- Step 2: npm install (install modules)
+- Step 3: npm install react-router-dom
+- Step 4: npm run dev
+
 ## ✨ Screenshots
 ![alt text](image.png)
 ![alt text](image-1.png)
