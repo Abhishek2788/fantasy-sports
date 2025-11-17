@@ -15,26 +15,26 @@ export default function Header() {
               </div>
             </div>
             <span className="hidden sm:inline text-sm font-semibold text-muted-foreground">
-              Elite
+              Sports
             </span>
           </Link>
 
           <nav className="hidden sm:flex items-center gap-1">
             <Link
               to="/matches"
-              className="px-4 py-2 text-sm font-medium text-foreground hover:bg-muted rounded-lg transition-smooth"
+              className="px-4 py-2 text-sm font-medium bg-accent text-background hover:bg-destructive-foreground rounded-lg transition-smooth"
             >
               Matches
             </Link>
             <Link
               to="/contests"
-              className="px-4 py-2 text-sm font-medium text-foreground hover:bg-muted rounded-lg transition-smooth"
+              className="px-4 py-2 text-sm font-medium bg-accent text-background hover:bg-destructive-foreground rounded-lg transition-smooth"
             >
               Contests
             </Link>
             <Link
               to="/leaderboard"
-              className="px-4 py-2 text-sm font-medium text-foreground hover:bg-muted rounded-lg transition-smooth"
+              className="px-4 py-2 text-sm font-medium bg-accent text-background hover:bg-destructive rounded-lg transition-smooth"
             >
               Leaderboard
             </Link>

@@ -7,6 +7,9 @@ html,body,#root { height:100%; }
 .bg-card-grad-1 { background: linear-gradient(90deg,#fff8f9 0%, #f7eefc 100%); }
 .bg-card-grad-2 { background: linear-gradient(90deg,#fff7f0 0%, #fceff4 100%); }
 .bg-card-grad-3 { background: linear-gradient(90deg,#ffffff 0%, #f3f7ff 100%); }
+.bg-card-grad-4 { background: linear-gradient(90deg,#22C1C3 0%, #FDBB2D 100%); }
+.bg-card-grad-5 { background: linear-gradient(90deg,#fa9907 0%, #f90505 100%); }
+.bg-card-grad-6 { background: linear-gradient(90deg,#f10703 0%, #798e02 100%); }
 
 
 :root {

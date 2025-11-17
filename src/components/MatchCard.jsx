@@ -9,7 +9,7 @@ export default function MatchCard({ match }) {
     <Link
       to={`/matches/${id}/my-teams`}
       onClick={() => setMatch(match)}
-      className="h-[165px] w-full sm:w-[380px] bg-linear-to-r from-white to-purple-200 rounded-sm px-6 py-8 shadow-sm flex items-center justify-center hover:cursor-pointer"
+      className="h-[165px] w-full sm:w-[380px] bg-linear-to-r from-white to-yellow-500 rounded-sm px-6 py-8 shadow-sm flex items-center justify-center hover:cursor-pointer"
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-6">

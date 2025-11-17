@@ -23,7 +23,7 @@ export default function UpcomingMatches() {
   if (loading) return <div className="py-8 text-center">Loading...</div>;
 
   return (
-    <div className="flex ">
+    <div className="flex">
       {/* cards */}
       <div className="mt-3 space-y-3 w-full">
         {matches.map((m) => (

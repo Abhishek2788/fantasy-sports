@@ -5,19 +5,19 @@ const matches = [
     id: 1,
     title: "CSK vs KKR",
     sub: "10th IPL Match",
-    style: "bg-card-grad-1",
+    style: "bg-card-grad-4",
   },
   {
     id: 2,
     title: "SRH vs RCB",
     sub: "11th IPL Match",
-    style: "bg-card-grad-2",
+    style: "bg-card-grad-4",
   },
   {
     id: 3,
     title: "RCB vs CSK",
     sub: "12th IPL Match",
-    style: "bg-card-grad-3",
+    style: "bg-card-grad-4",
   },
 ];
 
@@ -54,8 +54,8 @@ const completedMatches = [
 function MatchCard({ m }) {
   return (
     <div className={`rounded-2xl shadow p-6 mb-4 ${m.style}`}>
-      <div className="text-xs text-gray-500 text-center">{m.sub}</div>
-      <div className="text-center font-extrabold text-2xl mt-2">{m.title}</div>
+      <div className="text-xs text-pink-600 text-center">{m.sub}</div>
+      <div className="text-center font-extrabold text-2xl mt-2 text-pink-700">{m.title}</div>
       <div className="flex justify-between items-center mt-4">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center font-bold">
@@ -65,7 +65,7 @@ function MatchCard({ m }) {
             KK
           </div>
         </div>
-        <div className="text-sm text-gray-500">07:30 PM</div>
+        <div className="text-sm text-pink-600">07:30 PM</div>
       </div>
     </div>
   );
