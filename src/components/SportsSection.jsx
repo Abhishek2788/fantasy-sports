@@ -1,6 +1,6 @@
 import { BasketballIcon } from "./icons/BasketballIcon";
 import { CricketIcon } from "./icons/CricketIcon";
-import { FootballIcon } from "./icons/footballIcon";
+import { FootballIcon } from "./icons/FootballIcon";
 import { HockeyIcon } from "./icons/hockeyIcon";
 
 export const SportsSection = () => {
