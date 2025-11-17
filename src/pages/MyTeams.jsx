@@ -129,7 +129,7 @@ const MyTeams = () => {
               <button
                 onClick={() => handleTeamRegistration()}
                 disabled={!teams?.length || !selectedTeam}
-                className="flex-1 py-3 bg-red-600 hover:cursor-pointer text-white font-bold rounded-lg shadow-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 py-3 px-1 bg-red-600 hover:cursor-pointer text-white font-bold rounded-lg shadow-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Register Team{" "}
                 {selectedTeam ? `with ${selectedTeam.creditsUsed ?? ""}` : ""}
