@@ -1,7 +1,7 @@
 import { BasketballIcon } from "./icons/BasketballIcon";
 import { CricketIcon } from "./icons/CricketIcon";
 import { FootballIcon } from "./icons/FootballIcon";
-import { HockeyIcon } from "./icons/hockeyIcon";
+import { HockeyIcon } from "./icons/HockeyIcon";
 
 export const SportsSection = () => {
   const sports = [
